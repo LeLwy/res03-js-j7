@@ -19,7 +19,7 @@ class Task{
         
     addNewTask(){
         
-        if(this.#texte !== null){
+        if(this.#texte !== ""){
             
             let toDoList = document.querySelector("body > main > section:first-of-type > ul");
             let toDoListLi = document.createElement("li"); 
